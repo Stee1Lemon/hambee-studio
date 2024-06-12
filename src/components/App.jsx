@@ -1,16 +1,12 @@
+import HomePage from 'pages/HomePage';
+import SecondPage from 'pages/SecondPage';
+import { Route, Routes } from 'react-router-dom';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      <h1>Hambee Studio</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/second" element={<SecondPage />} />
+    </Routes>
   );
 };
