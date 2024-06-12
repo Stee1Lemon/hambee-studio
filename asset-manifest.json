@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/hambee-studio/static/css/main.7acaea2f.css",
-    "main.js": "/hambee-studio/static/js/main.6d00d621.js",
+    "main.js": "/hambee-studio/static/js/main.c81e42e8.js",
+    "static/js/210.0f40df7f.chunk.js": "/hambee-studio/static/js/210.0f40df7f.chunk.js",
+    "static/js/655.346d48ed.chunk.js": "/hambee-studio/static/js/655.346d48ed.chunk.js",
     "index.html": "/hambee-studio/index.html",
-    "main.7acaea2f.css.map": "/hambee-studio/static/css/main.7acaea2f.css.map",
-    "main.6d00d621.js.map": "/hambee-studio/static/js/main.6d00d621.js.map"
+    "main.c81e42e8.js.map": "/hambee-studio/static/js/main.c81e42e8.js.map",
+    "210.0f40df7f.chunk.js.map": "/hambee-studio/static/js/210.0f40df7f.chunk.js.map",
+    "655.346d48ed.chunk.js.map": "/hambee-studio/static/js/655.346d48ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.6d00d621.js"
+    "static/js/main.c81e42e8.js"
   ]
 }
