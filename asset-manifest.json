@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Stee1Lemon/hambee-studio/static/css/main.7acaea2f.css",
+    "main.js": "/Stee1Lemon/hambee-studio/static/js/main.097c3212.js",
+    "index.html": "/Stee1Lemon/hambee-studio/index.html",
+    "main.7acaea2f.css.map": "/Stee1Lemon/hambee-studio/static/css/main.7acaea2f.css.map",
+    "main.097c3212.js.map": "/Stee1Lemon/hambee-studio/static/js/main.097c3212.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.097c3212.js"
+  ]
+}
