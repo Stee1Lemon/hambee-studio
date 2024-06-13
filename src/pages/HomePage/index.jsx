@@ -1,18 +1,18 @@
 import { Container } from 'components/ComonElements';
+import Hero from 'components/Hero';
+import { Section } from './HomePage.styled';
+import About from 'components/About';
 
 const HomePage = () => {
   return (
     <>
       <Container>
-        <h1>Hambee Studio</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus,
-          explicabo.
-        </p>
-        <ul>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-        </ul>
+        <Section>
+          <Hero />
+        </Section>
+        <Section>
+          <About />
+        </Section>
       </Container>
     </>
   );

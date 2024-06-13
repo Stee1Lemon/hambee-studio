@@ -8,7 +8,6 @@ const Header = () => {
     <HeaderBackground>
       <Container>
         <NavField>
-          <NavLink to={'/about'}>About</NavLink>
           <NavLink to={'/team'}>Our Team</NavLink>
           <NavLink to={'/'}>
             <LogoImage>
@@ -16,7 +15,6 @@ const Header = () => {
             </LogoImage>
           </NavLink>
           <NavLink to={'/projects'}>Our Games</NavLink>
-          <NavLink to={'/contacts'}>Contacts</NavLink>
         </NavField>
       </Container>
     </HeaderBackground>
