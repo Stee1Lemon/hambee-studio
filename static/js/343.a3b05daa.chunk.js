@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhambee_studio=self.webpackChunkhambee_studio||[]).push([[343],{343:function(e,n,s){s.r(n);var a=s(443),t=s(87),c=s(184);n.default=function(){return(0,c.jsx)(c.Fragment,{children:(0,c.jsxs)(a.W,{children:[(0,c.jsx)("h3",{children:"Team Page"}),(0,c.jsx)(t.OL,{to:"/",children:"Back to Home page"})]})})}}}]);
+//# sourceMappingURL=343.a3b05daa.chunk.js.map

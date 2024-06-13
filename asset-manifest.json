@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.js": "/hambee-studio/static/js/main.c81e42e8.js",
-    "static/js/210.0f40df7f.chunk.js": "/hambee-studio/static/js/210.0f40df7f.chunk.js",
-    "static/js/655.346d48ed.chunk.js": "/hambee-studio/static/js/655.346d48ed.chunk.js",
+    "main.js": "/hambee-studio/static/js/main.72112475.js",
+    "static/js/210.6c06d40f.chunk.js": "/hambee-studio/static/js/210.6c06d40f.chunk.js",
+    "static/js/620.70d69da1.chunk.js": "/hambee-studio/static/js/620.70d69da1.chunk.js",
+    "static/js/343.a3b05daa.chunk.js": "/hambee-studio/static/js/343.a3b05daa.chunk.js",
+    "static/js/721.7bc3bde1.chunk.js": "/hambee-studio/static/js/721.7bc3bde1.chunk.js",
+    "static/js/516.a080a963.chunk.js": "/hambee-studio/static/js/516.a080a963.chunk.js",
+    "static/media/humbee-anim.gif": "/hambee-studio/static/media/humbee-anim.6d228f943a546b4348bf.gif",
     "index.html": "/hambee-studio/index.html",
-    "main.c81e42e8.js.map": "/hambee-studio/static/js/main.c81e42e8.js.map",
-    "210.0f40df7f.chunk.js.map": "/hambee-studio/static/js/210.0f40df7f.chunk.js.map",
-    "655.346d48ed.chunk.js.map": "/hambee-studio/static/js/655.346d48ed.chunk.js.map"
+    "main.72112475.js.map": "/hambee-studio/static/js/main.72112475.js.map",
+    "210.6c06d40f.chunk.js.map": "/hambee-studio/static/js/210.6c06d40f.chunk.js.map",
+    "620.70d69da1.chunk.js.map": "/hambee-studio/static/js/620.70d69da1.chunk.js.map",
+    "343.a3b05daa.chunk.js.map": "/hambee-studio/static/js/343.a3b05daa.chunk.js.map",
+    "721.7bc3bde1.chunk.js.map": "/hambee-studio/static/js/721.7bc3bde1.chunk.js.map",
+    "516.a080a963.chunk.js.map": "/hambee-studio/static/js/516.a080a963.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.c81e42e8.js"
+    "static/js/main.72112475.js"
   ]
 }

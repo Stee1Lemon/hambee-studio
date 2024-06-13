@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhambee_studio=self.webpackChunkhambee_studio||[]).push([[620],{620:function(e,u,n){n.r(u);var s=n(443),t=n(184);u.default=function(){return(0,t.jsx)(s.W,{children:(0,t.jsx)("h3",{children:"About Page"})})}}}]);
+//# sourceMappingURL=620.70d69da1.chunk.js.map

@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkhambee_studio=self.webpackChunkhambee_studio||[]).push([[655],{655:function(e,n,s){s.r(n);var t=s(87),a=s(184);n.default=function(){return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)("h2",{children:"Second Page"}),(0,a.jsx)(t.OL,{to:"/",children:"Back to Home page"})]})}}}]);
-//# sourceMappingURL=655.346d48ed.chunk.js.map
