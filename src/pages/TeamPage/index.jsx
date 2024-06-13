@@ -1,13 +1,14 @@
 import { Container } from 'components/ComonElements';
 import { NavLink } from 'react-router-dom';
-import { TeamList, TeamTitle } from './TeamPage.styled';
+import { TeamList } from './TeamPage.styled';
 import TeamCard from 'components/TeamCard';
+import { SemiTitle } from 'components/ComonElements/SemiTitle/SemiTitle.styled';
 
 const TeamPage = () => {
   return (
     <section>
       <Container>
-        <TeamTitle>Our Team</TeamTitle>
+        <SemiTitle>Our Team</SemiTitle>
         <TeamList>
           <TeamCard />
           <TeamCard />
