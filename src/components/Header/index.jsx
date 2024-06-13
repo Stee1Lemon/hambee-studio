@@ -1,14 +1,14 @@
 import { NavLink } from 'react-router-dom';
-import { HeaderContainer } from './Header.styled';
+import { HeaderContainer, NavField } from './Header.styled';
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <nav>
+      <NavField>
         <NavLink to={'/projects'}>Projects</NavLink>
         <NavLink to={'/'}>Home</NavLink>
         <NavLink to={'/team'}>Team</NavLink>
-      </nav>
+      </NavField>
     </HeaderContainer>
   );
 };
