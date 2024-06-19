@@ -1,16 +1,17 @@
 import styled from 'styled-components';
 
 export const MainField = styled.div`
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
 
   h1 {
     font-size: 94px;
     font-style: italic;
     padding-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
   }
 
   p {
