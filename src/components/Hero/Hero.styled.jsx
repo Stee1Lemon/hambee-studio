@@ -7,7 +7,7 @@ export const MainField = styled.div`
   width: auto;
 
   h1 {
-    font-size: 64px;
+    font-size: 94px;
     font-style: italic;
     padding-top: 60px;
     margin-bottom: 20px;
