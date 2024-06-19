@@ -6,39 +6,27 @@ import {
   TeamCardElement,
 } from './TeamCard.styled';
 
-const TeamCard = () => {
+const TeamCard = ({ member }) => {
   return (
     <TeamCardElement>
       <ImageBox>
-        <img src="https://placehold.co/264x260/png" alt="Team member avatar" />
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
-          voluptas commodi quis ut ex, dolorem eius obcaecati qui dolores iusto.
-          Voluptate illo vero ut iusto.
-        </p>
+        <img
+          src={`${process.env.PUBLIC_URL}/${member.image}`}
+          alt="Team member avatar"
+        />
+        <p>{member.description}</p>
       </ImageBox>
       <InformationField>
-        <h3>Team member name</h3>
-        <p>Role</p>
+        <h3>{member.name}</h3>
+        <p>{member.role}</p>
         <SocialLinks>
-          <li>
-            <a
-              href="https://www.instagram.com/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <Svg icon={'instagram'} />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <Svg icon={'linkedin'} />
-            </a>
-          </li>
+          {member.links.map((link, url) => (
+            <li key={url}>
+              <a href={link.url} rel="noreferrer" target="_blank">
+                <Svg icon={link.platform} />
+              </a>
+            </li>
+          ))}
         </SocialLinks>
       </InformationField>
     </TeamCardElement>

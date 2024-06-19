@@ -1,8 +1,8 @@
 import { Container } from 'components/ComonElements';
 import { SemiTitle } from 'components/ComonElements/SemiTitle/SemiTitle.styled';
-import { NavLink } from 'react-router-dom';
 import { ProjectList } from './ProjectPage.styled';
 import ProjectCard from 'components/ProjectCard';
+import projects from 'pages/ProjectsPage/projects-data.json';
 
 const ProjectsPage = () => {
   return (
@@ -10,9 +10,10 @@ const ProjectsPage = () => {
       <Container>
         <SemiTitle>Our Games</SemiTitle>
         <ProjectList>
-          <ProjectCard />
+          {projects.map(project => (
+            <ProjectCard project={project} key={project.id} />
+          ))}
         </ProjectList>
-        <NavLink to={'/'}>Back to Home page</NavLink>
       </Container>
     </section>
   );

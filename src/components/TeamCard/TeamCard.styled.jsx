@@ -19,6 +19,10 @@ export const ImageBox = styled.div`
   position: relative;
   overflow: hidden;
 
+  img {
+    object-fit: cover;
+  }
+
   p {
     position: absolute;
     top: 0;
@@ -26,7 +30,7 @@ export const ImageBox = styled.div`
     padding: 15px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--complement);
+    color: white;
     background-color: #a39494d3;
     transform: translateY(100%);
     transition: transform 250ms;

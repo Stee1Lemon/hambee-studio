@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "image": "team-images/vlada.png",
+    "name": "Vlada Yatsyno",
+    "role": "Game Artist",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique voluptate quaerat! Mollitia, reiciendis ducimus?",
+    "links": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/vlada.y.vy/?igsh=MWl3Zzg4c3AzY2hweA%3D%3D&utm_source=qr"
+      },
+      {
+        "platform": "behance",
+        "url": "https://www.behance.net/vladayatsyno"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "image": "team-images/andriy.png",
+    "name": "Andrii Vantukh",
+    "role": "Game Developer",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique voluptate quaerat! Mollitia, reiciendis ducimus?",
+    "links": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/andrii_hambee/"
+      },
+      {
+        "platform": "github",
+        "url": "https://github.com/mikidia"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "image": "team-images/vlad.jpg",
+    "name": "Vladyslav Golodniuk",
+    "role": "Web developer",
+    "description": "Greetings. I am the developer of the site you are on now. I hope it was informative enough. Of course, it will improve with the time of the studio develop. Don't forget to follow us.",
+    "links": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/steellemon6/"
+      },
+      {
+        "platform": "github",
+        "url": "https://github.com/Stee1Lemon"
+      },
+      {
+        "platform": "linkedin",
+        "url": "https://www.linkedin.com/in/vladyslav-golodniuk-780902302/"
+      }
+    ]
+  }
+]

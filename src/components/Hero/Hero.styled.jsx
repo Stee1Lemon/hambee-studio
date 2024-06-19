@@ -2,22 +2,30 @@ import styled from 'styled-components';
 
 export const MainField = styled.div`
   position: relative;
-  background-image: url('https://placehold.co/900x600/png');
   background-repeat: no-repeat;
   background-position: center;
   width: auto;
-  height: 500px;
 
   h1 {
     font-size: 64px;
     font-style: italic;
     padding-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 1.5;
   }
 
   ul {
-    float: right;
+    /* For the future fix */
+    /* float: right;
     margin-top: 5%;
-    margin-right: 5%;
+    margin-right: 5%; */
+    display: flex;
+    justify-content: center;
   }
 
   li {

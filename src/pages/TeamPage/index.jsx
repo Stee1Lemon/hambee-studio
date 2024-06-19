@@ -1,8 +1,8 @@
 import { Container } from 'components/ComonElements';
-import { NavLink } from 'react-router-dom';
 import { TeamList } from './TeamPage.styled';
 import TeamCard from 'components/TeamCard';
 import { SemiTitle } from 'components/ComonElements/SemiTitle/SemiTitle.styled';
+import team from 'pages/TeamPage/team-data.json';
 
 const TeamPage = () => {
   return (
@@ -10,11 +10,10 @@ const TeamPage = () => {
       <Container>
         <SemiTitle>Our Team</SemiTitle>
         <TeamList>
-          <TeamCard />
-          <TeamCard />
-          <TeamCard />
+          {team.map(member => (
+            <TeamCard member={member} key={member.id} />
+          ))}
         </TeamList>
-        <NavLink to={'/'}>Back to Home page</NavLink>
       </Container>
     </section>
   );
