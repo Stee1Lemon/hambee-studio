@@ -1,3 +1,4 @@
+import { BaseButton } from 'components/ComonElements';
 import styled from 'styled-components';
 
 export const TeamCardElement = styled.li`
@@ -61,6 +62,21 @@ export const InformationField = styled.div`
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+  }
+`;
+
+export const PortfolioButton = styled(BaseButton)`
+  min-width: auto;
+  min-height: auto;
+  padding: 5px 40px;
+  margin-bottom: 10px;
+  color: var(--complement);
+  background-color: var(--base);
+  transition: all 250ms ease;
+
+  &:hover {
+    color: #cecece;
+    fill: #cecece;
   }
 `;
 

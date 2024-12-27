@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 const BaseButton = styled.button`
-  /* color: var(--white-color); */
-  /* background: var(--third-color); */
   color: #cecece;
   background-color: #76449d;
   border-radius: 200px;
@@ -10,7 +8,7 @@ const BaseButton = styled.button`
   min-width: 173px;
   min-height: 56px;
   border: none;
-  transition: background-color 250ms;
+  transition: all 1s ease;
 
   &:hover {
     /* background: var(--button-hover); */

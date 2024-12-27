@@ -2,11 +2,12 @@ import Svg from 'components/ComonElements/Svg';
 import {
   ImageBox,
   InformationField,
+  PortfolioButton,
   SocialLinks,
   TeamCardElement,
 } from './TeamCard.styled';
 
-const TeamCard = ({ member }) => {
+const TeamCard = ({ member, switchPortfolio }) => {
   return (
     <TeamCardElement>
       <ImageBox>
@@ -19,8 +20,11 @@ const TeamCard = ({ member }) => {
       <InformationField>
         <h3>{member.name}</h3>
         <p>{member.role}</p>
+        <PortfolioButton onClick={() => switchPortfolio(member.name)}>
+          Portfolio <Svg icon={'mouse-click'} />
+        </PortfolioButton>
         <SocialLinks>
-          {member.links.map((link, url) => (
+          {member.socialLinks.map((link, url) => (
             <li key={url}>
               <a href={link.url} rel="noreferrer" target="_blank">
                 <Svg icon={link.platform} />

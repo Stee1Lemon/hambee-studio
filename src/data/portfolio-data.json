@@ -1,0 +1,117 @@
+[
+  {
+    "id": "pkturbf",
+    "image": "team-images/vlada.png",
+    "imagePortfolio": "team-images/vlada.png",
+    "name": "Vlada Yatsyno",
+    "role": "Artist & Animator",
+    "description": "Hi! I'm an artist from Portugal. I co-founded Hambee Studio, focusing on creating engaging and innovative indie video games. This experience has allowed me to hone my skills in design, visual storytelling, and animation.",
+    "email": "vlada.y.vy@gmail.com",
+    "socialLinks": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/vlada.y.vy/"
+      },
+      {
+        "platform": "behance",
+        "url": "https://www.behance.net/vladayatsyno"
+      }
+    ],
+    "youtubeLink": "LSwEjNiSp4s",
+    "projects": [
+      {
+        "id": "u6mgia0",
+        "projectName": "Bloody Rats",
+        "projectImages": [
+          "project-images/bloody-rats/bloody-rats_IMG_5801.jpg",
+          "project-images/bloody-rats/bloody-rats_IMG_5802.jpg",
+          "project-images/bloody-rats/bloody-rats_IMG_5803.jpg",
+          "project-images/bloody-rats/bloody-rats_IMG_5804.jpg",
+          "project-images/bloody-rats/bloody-rats_IMG_5805.jpg",
+          "project-images/bloody-rats/bloody-rats_IMG_5806.jpg"
+        ]
+      },
+      {
+        "id": "52gp1jd",
+        "projectName": "About Portugal",
+        "projectImages": [
+          "project-images/about-portugal/about-portugal_IMG_5784.jpg",
+          "project-images/about-portugal/about-portugal_IMG_5785.jpg",
+          "project-images/about-portugal/about-portugal_IMG_5786.jpg",
+          "project-images/about-portugal/about-portugal_IMG_5787.jpg",
+          "project-images/about-portugal/about-portugal_IMG_5788.jpg",
+          "project-images/about-portugal/about-portugal_IMG_5789.jpg",
+          "project-images/about-portugal/about-portugal_IMG_5790.jpg",
+          "project-images/about-portugal/about-portugal_IMG_5791.jpg",
+          "project-images/about-portugal/about-portugal_IMG_5828.jpg"
+        ]
+      },
+      {
+        "id": "st1qcpm",
+        "projectName": "Dream Rush",
+        "projectImages": [
+          "project-images/dreamrush/dreamrush_IMG_5793.jpg",
+          "project-images/dreamrush/dreamrush_IMG_5794.jpg",
+          "project-images/dreamrush/dreamrush_IMG_5795.jpg",
+          "project-images/dreamrush/dreamrush_IMG_5796.jpg",
+          "project-images/dreamrush/dreamrush_IMG_5797.jpg",
+          "project-images/dreamrush/dreamrush_IMG_5798.jpg",
+          "project-images/dreamrush/dreamrush_IMG_5799.jpg",
+          "project-images/dreamrush/dreamrush_IMG_5800.jpg"
+        ]
+      },
+      {
+        "id": "1zt6a8m",
+        "projectName": "Illustrations",
+        "projectImages": [
+          "project-images/illustrations/illustration_IMG_5783.jpg",
+          "project-images/illustrations/illustration_IMG_5777.jpg",
+          "project-images/illustrations/illustration_IMG_5778.jpg",
+          "project-images/illustrations/illustration_IMG_5779.jpg",
+          "project-images/illustrations/illustration_IMG_5780.jpg",
+          "project-images/illustrations/illustration_IMG_5781.jpg",
+          "project-images/illustrations/illustration_IMG_5782.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "i0686wq",
+    "image": "team-images/andriy.png",
+    "imagePortfolio": "team-images/andriy.png",
+    "name": "Andrii Vantukh",
+    "role": "Programmer & Software Developer",
+    "description": "Hello! I'm a programmer based in Portugal and a co-founder of Hambee Studio. We specialize in crafting unique and captivating indie video games. Through this journey, I’ve strengthened my expertise in coding, designing gameplay mechanics, and implementing interactive features.",
+    "email": "vantukhandrii@gmail.com",
+    "socialLinks": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/andrii_hambee/"
+      },
+      {
+        "platform": "github",
+        "url": "https://github.com/mikidia"
+      }
+    ],
+    "youtubeLink": "UCc3YnfYbSg",
+    "projects": [
+      {
+        "id": "u6maia0",
+        "projectName": "",
+        "projectImages": [
+          "project-images/games/1.jpg",
+          "project-images/games/2.jpg",
+          "project-images/games/3.jpg",
+          "project-images/games/4.jpg",
+          "project-images/games/5.jpg",
+          "project-images/games/6.jpg",
+          "project-images/blender-images/7.png",
+          "project-images/blender-images/8.jpg",
+          "project-images/blender-images/9.jpg",
+          "project-images/blender-images/10.jpg",
+          "project-images/blender-images/11.jpg"
+        ]
+      }
+    ]
+  }
+]

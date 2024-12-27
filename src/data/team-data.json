@@ -5,7 +5,7 @@
     "name": "Vlada Yatsyno",
     "role": "Game Artist",
     "description": "Hi, I'm a designer/artist at Hambee Studios, I hope you enjoy what we do.I love to eat good food and sleep.",
-    "links": [
+    "socialLinks": [
       {
         "platform": "instagram",
         "url": "https://www.instagram.com/vlada.y.vy/?igsh=MWl3Zzg4c3AzY2hweA%3D%3D&utm_source=qr"
@@ -22,7 +22,7 @@
     "name": "Andrii Vantukh",
     "role": "Game Developer",
     "description": "Hi, I'm a programmer at Hambee Studios, I hope you like what we do. I love cats and playing Rpg games.",
-    "links": [
+    "socialLinks": [
       {
         "platform": "instagram",
         "url": "https://www.instagram.com/andrii_hambee/"
@@ -30,27 +30,6 @@
       {
         "platform": "github",
         "url": "https://github.com/mikidia"
-      }
-    ]
-  },
-  {
-    "id": "3",
-    "image": "team-images/vlad.jpg",
-    "name": "Vladyslav Golodniuk",
-    "role": "Web developer",
-    "description": "Greetings. I am the developer of the site you are on now. I hope it was informative enough. Of course, it will improve with the time of the studio develop. Don't forget to follow us.",
-    "links": [
-      {
-        "platform": "instagram",
-        "url": "https://www.instagram.com/steellemon6/"
-      },
-      {
-        "platform": "github",
-        "url": "https://github.com/Stee1Lemon"
-      },
-      {
-        "platform": "linkedin",
-        "url": "https://www.linkedin.com/in/vladyslav-golodniuk-780902302/"
       }
     ]
   }
